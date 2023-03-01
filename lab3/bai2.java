@@ -14,7 +14,7 @@ public class bai2 {
             this.stClass = stClass;
         }
 
-        st Student = new Student();
+        Student st = new Student();
 
         public String getStID() {
             return stID;
@@ -43,6 +43,53 @@ public class bai2 {
         @Override
         public String toString() {
             return this.stID + "," + this.stName + "," + this.stClass;
+        }
+    }
+
+    class Book {
+        private String boCode;
+        private String boTitle;
+        private String boAuthor;
+
+        public Book() {
+
+        }
+
+        public Book(String boCode, String boTitle, String boAuthor) {
+            this.boCode = boCode;
+            this.boTitle = boTitle;
+            this.boAuthor = boAuthor;
+        }
+
+        Book bo = new Book();
+
+        public String getBoCode() {
+            return boCode;
+        }
+
+        public String getBoTitle() {
+            return boTitle;
+        }
+
+        public String getBoAuthor() {
+            return boAuthor;
+        }
+
+        public void setBoCode(String code) {
+            this.boCode = code;
+        }
+
+        public void setBoTitle(String title) {
+            this.boTitle = title;
+        }
+
+        public void setBoAuthor(String author) {
+            this.boAuthor = author;
+        }
+
+        @Override
+        public String toString() {
+            return this.boCode + "," + this.boTitle + "," + this.boAuthor;
         }
     }
 }
