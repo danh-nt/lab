@@ -92,4 +92,40 @@ public class bai2 {
             return this.boCode + "," + this.boTitle + "," + this.boAuthor;
         }
     }
+
+    class LibaryCard {
+        private Long lbCode;
+        private String Owner;
+        private Integer borrowCount;
+
+        public LibaryCard() {
+
+        }
+
+        public LibaryCard(Long lbCode, String Owner, Integer borrowCount) {
+            this.lbCode = lbCode;
+            this.Owner = Owner;
+            this.borrowCount = borrowCount;
+        }
+
+        public Long getLbCode() {
+            return lbCode;
+        }
+
+        public String getOwner() {
+            return Owner;
+        }
+
+        public Integer getBorrowCount() {
+            return borrowCount;
+        }
+
+        public void setLbCode(Long code) {
+            this.lbCode = code;
+        }
+
+        public void setOwner(String owner) {
+            this.Owner = owner;
+        }
+    }
 }
