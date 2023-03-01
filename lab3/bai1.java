@@ -86,21 +86,21 @@ public class bai1 {
 
         }
 
-        public Fractionadd(float Fraction){
+        public float Factionadd(float Fraction){
             return this.numeration+this.denominator;
         }
 
-        public Fractionsub(float Fraction){
+        public float Fractionsub(float Fraction){
             return this.numeration-this.denominator;
 
         }
 
-        public Fractionmul(float Fraction){
+        public float Fractionmul(float Fraction){
             return this.numeration*this.denominator;
             
         }
 
-        public Fractiondiv(float Fraction){
+        public float Fractiondiv(float Fraction){
             return this.numeration*this.denominator;
             
         }
