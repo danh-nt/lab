@@ -34,7 +34,6 @@ public class Circle extends Shape {
         return 2 * Pi * radius;
     }
 
-    @Override
     public String toString() {
 
         return "Circle:(" + "radius: " + radius + ", color: " + color + ", filled: " + filled + ", Area: "
