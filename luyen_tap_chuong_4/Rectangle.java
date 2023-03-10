@@ -46,7 +46,6 @@ public class Rectangle extends Shape {
 
     public String toString() {
 
-        return "Rectangle:(" + "width: " + width + ", length: " + length + ", Area: " + width * length + ", Perimeter: "
-                + (width + length) * 2 + ")";
+        return "Rectangle:(" + "width: " + width + ", length: " + length + ", Area: " + width * length + ", Perimeter: " + (width + length) * 2 + ")";
     }
 }
