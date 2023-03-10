@@ -35,6 +35,6 @@ public class Square extends Rectangle {
 
     public String toString() {
 
-        return "Square: (" + "side: " + side + ", color: " + color + ", filled: " + filled + ")"
+        return "Square: (" + "side: " + side + ", color: " + color + ", filled: " + filled + ")";
     }
 }
