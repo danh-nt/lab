@@ -44,7 +44,6 @@ public class Rectangle extends Shape {
         return (width + length) * 2;
     }
 
-    @Override
     public String toString() {
 
         return "Rectangle:(" + "width: " + width + ", length: " + length + ", Area: " + width * length + ", Perimeter: "
