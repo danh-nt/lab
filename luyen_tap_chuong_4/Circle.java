@@ -37,7 +37,7 @@ public class Circle extends Shape {
     public String toString() {
 
         return "Circle:(" + "radius: " + radius + ", color: " + color + ", filled: " + filled + ", Area: "
-                + Pi * radius * radius + ", Perimeter: " + 2 * Pi * radius + ")";
+                + Pi * radius * radius + ", Perimeter: " + 2 * Pi * radius + ")"
     }
 
 }
